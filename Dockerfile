@@ -8,7 +8,7 @@ RUN pip install flask requests
 COPY app.py /app.py
 
 # Вказуємо порт, на якому буде працювати додаток
-EXPOSE 5000
+EXPOSE 80
 
 # Запускаємо додаток
 CMD ["python", "/app.py"]
